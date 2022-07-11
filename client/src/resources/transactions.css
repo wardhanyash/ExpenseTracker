@@ -1,0 +1,30 @@
+.filter {
+  box-shadow: 0 0 2px gray;
+  padding: 15px 20px;
+  border-radius: 5px;
+}
+
+.view-switch {
+  border: 1px solid rgba(0, 0, 0, 0.715);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.anticon svg {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.active-icon {
+  color: black;
+}
+
+.inactive-icon {
+  color: gray;
+}
+/* 800 */
+@media screen and (max-width: 800px) {
+  .filter {
+    overflow-x: scroll;
+  }
+}
